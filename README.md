@@ -1,8 +1,15 @@
-# React + Vite
+Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An expense tracker application built with React and Tailwind CSS, using context and reducer for state management. This app allows users to add, view, and delete transactions, maintaining a balance of income and expenses.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add Transactions: Easily add income or expense transactions with a description and amount.
+Delete Transactions: Remove transactions from the list with a single click.
+View Balance: Track total balance, income, and expenses.
+Responsive Design: Built with Tailwind CSS for a responsive layout.
+Technologies Used
+
+Frontend: React, Tailwind CSS
+State Management: React Context API, useReducer hook
+Icons: Heroicons
